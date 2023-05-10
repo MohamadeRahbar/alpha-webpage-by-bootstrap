@@ -1,0 +1,187 @@
+@font-face {
+  font-family: vms;
+  src: url("../webfonts/font.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  vertical-align: middle;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+textarea {
+  resize: none;
+}
+
+body {
+  direction: rtl;
+  word-wrap: break-word;
+  word-break: keep-all;
+  line-height: 26px;
+  background-color: #fff;
+  color: #444;
+  font-family: vms, tahoma;
+  font-size: 14px;
+  padding-top: 72px;
+}
+
+.font-10 {
+  font-size: 10px !important;
+}
+
+.font-11 {
+  font-size: 11px !important;
+}
+
+.font-12 {
+  font-size: 12px !important;
+}
+
+.font-13 {
+  font-size: 13px !important;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+
+.font-15 {
+  font-size: 15px !important;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-17 {
+  font-size: 17px !important;
+}
+
+.font-18 {
+  font-size: 18px !important;
+}
+
+.font-19 {
+  font-size: 19px !important;
+}
+
+.font-20 {
+  font-size: 20px !important;
+}
+
+.font-21 {
+  font-size: 21px !important;
+}
+
+.font-22 {
+  font-size: 22px !important;
+}
+
+.font-23 {
+  font-size: 23px !important;
+}
+
+.font-24 {
+  font-size: 24px !important;
+}
+
+.font-25 {
+  font-size: 25px !important;
+}
+
+.home-product-effect div {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  bottom: -50px;
+}
+
+.home-product-effect img {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.home-product-effect:hover div {
+  bottom: 0;
+}
+
+.home-product-effect:hover img {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.parallax {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../images/alpha.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 350px;
+}
+
+.parallax h3 {
+  font-size: 35px;
+  color: white;
+  text-shadow: 0 0 4px #000;
+}
+
+.parent-title {
+  width: 100%;
+  height: 1px;
+  margin: 50px 0 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.parent-title .child-title {
+  height: 50px;
+  border-radius: 3px;
+  margin-top: -25px;
+  padding: 0 15px;
+  min-width: 250px;
+}
+
+.parent-title .child-title * {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.top-title {
+  width: 100%;
+  height: 200px;
+  border-bottom: 2px solid #333;
+  background-image: url("../images/support-homepage-header-l2-l3-1440x600.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-title h1 {
+  font-size: 32px;
+  text-shadow: 0 0 5px #000;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
